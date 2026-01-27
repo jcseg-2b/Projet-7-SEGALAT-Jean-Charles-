@@ -1,0 +1,30 @@
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 120px;
+  height: 40px;
+  margin-top: 60px;
+}
+
+.footer-text {
+  margin-top: 10px;
+  font-size: 14px;
+  padding-bottom: 60px;
+}
+
+.mobile-br {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-br {
+    display: inline;
+  }
+}
