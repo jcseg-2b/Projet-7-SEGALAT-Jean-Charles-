@@ -7,7 +7,7 @@ function Footer() {
       <p className="footer-text">
         © 2020 Kasa. All
         <br className="mobile-br" />
-        rights reserved.
+        rights reserved
       </p>
     </footer>
   );
