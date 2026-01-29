@@ -9,13 +9,17 @@ import Error from "./pages/Error";
 function App() {
   return (
     <div className="app-container">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/housing/:id" element={<Housing />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
+      <div className="content-wrapper">
+        <Header />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/housing/:id" element={<Housing />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </main>
+      </div>
       <Footer />
     </div>
   );
