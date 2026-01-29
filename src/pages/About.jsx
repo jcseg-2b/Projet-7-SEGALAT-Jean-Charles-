@@ -1,12 +1,12 @@
-import "../styles/About.css";
+import "../stylespages/About.css";
+import Banner from "../components/banner/Banner";
+import aboutBanner from "../assets/aboutbanner.jpg";
 
 function About() {
   return (
-    <>
-      <div>
-        <p>Ma page À propos</p>
-      </div>
-    </>
+    <div>
+      <Banner image={aboutBanner} />
+    </div>
   );
 }
 

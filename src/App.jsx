@@ -8,7 +8,7 @@ import Error from "./pages/Error";
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

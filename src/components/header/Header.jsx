@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 import logo from "../../assets/LOGO.png";
-import headerDecor from "../../assets/_Section 1.png";
 
 function Header() {
   return (
@@ -13,7 +12,6 @@ function Header() {
           <Link to="/about">À propos</Link>
         </nav>
       </div>
-      <img src={headerDecor} alt="" className="header-decor" />
     </header>
   );
 }

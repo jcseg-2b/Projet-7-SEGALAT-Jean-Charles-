@@ -1,8 +1,9 @@
-import "../styles/Housing.css";
+import "../stylespages/Housing.css";
 
 function Housing() {
   return (
     <>
+      <Banner />
       <div>
         <p>Ma page Logement</p>
       </div>
