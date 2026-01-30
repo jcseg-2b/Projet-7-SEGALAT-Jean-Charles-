@@ -1,0 +1,33 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  border-radius: 25px;
+  margin: 43px 0;
+}
+
+@media (max-width: 1024px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cards-container {
+    gap: 22px;
+    margin: 43px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards-container {
+    background-color: #f6f6f6;
+    padding: 56px 50px;
+    margin: 25px 0;
+  }
+}
