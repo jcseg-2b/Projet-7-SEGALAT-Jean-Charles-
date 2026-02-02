@@ -23,6 +23,10 @@
   font-size: 18px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
 }
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
 
 @media screen and (max-width: 1024px) {
   .card {
