@@ -1,0 +1,15 @@
+.rating {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+
+.star-active {
+  color: #ff6060;
+}
+.star-inactive {
+  color: #e3e3e3;
+}
+.star {
+  font-size: 24px;
+}
