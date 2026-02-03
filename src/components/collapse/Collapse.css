@@ -1,0 +1,16 @@
+.collapse {
+  border: 1px solid #ff6060;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 500px;
+}
+.collapse-header {
+  background-color: #ff6060;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}

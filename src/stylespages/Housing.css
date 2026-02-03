@@ -3,3 +3,8 @@
   height: 300px;
   object-fit: cover;
 }
+
+.collapse-container {
+  display: flex;
+  gap: 20px;
+}

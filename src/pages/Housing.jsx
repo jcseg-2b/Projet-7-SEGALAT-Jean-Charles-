@@ -1,10 +1,16 @@
 import { useParams } from "react-router-dom";
 import logements from "../../data.json";
 import "../stylespages/Housing.css";
+import { Navigate } from "react-router-dom";
+import Collapse from "../components/collapse/Collapse";
 
 function Housing() {
   const { id } = useParams();
   const logement = logements.find((item) => item.id === id);
+
+  if (!logement) {
+    return <Navigate to="/*" />;
+  }
 
   return (
     <div>
@@ -15,7 +21,10 @@ function Housing() {
       />
       <h1>{logement.title}</h1>
       <p>{logement.location}</p>
-      <p>{logement.description}</p>
+      <div className="collapse-container">
+        <Collapse title="Description" content={logement.description} />
+        <Collapse title="Équipements" content={logement.equipments} />
+      </div>
     </div>
   );
 }
