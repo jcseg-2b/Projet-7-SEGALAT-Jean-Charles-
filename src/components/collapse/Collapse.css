@@ -1,31 +1,51 @@
 .collapse {
   border: 1px solid #ff6060;
   border-radius: 5px;
-  margin: 10px 0;
+  margin: 5px 0;
   width: 100%;
 }
 
 .collapse-header {
   background-color: #ff6060;
-  padding: 10px 15px;
+  padding: 5px;
   cursor: pointer;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .collapse-content {
   background-color: #ff6060;
   color: white;
   padding: 20px;
-  font-size: 16px;
+  font-size: 13px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
   .collapse-header {
     font-size: 14px;
     font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .collapse-content {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .collapse-content {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .collapse-header {
+    font-size: 18px;
+    font-weight: 300;
   }
 }

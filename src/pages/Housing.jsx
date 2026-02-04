@@ -4,6 +4,7 @@ import "../stylespages/Housing.css";
 import { Navigate } from "react-router-dom";
 import Collapse from "../components/collapse/Collapse";
 import Rating from "../components/rating/Rating";
+import Tag from "../components/tag/Tag";
 
 function Housing() {
   const { id } = useParams();
@@ -22,6 +23,11 @@ function Housing() {
       />
       <h1 className="housing-title">{logement.title}</h1>
       <p className="housing-location">{logement.location}</p>
+      <div className="housing-tags">
+        {logement.tags.map((tag, index) => (
+          <Tag key={index} title={tag} />
+        ))}
+      </div>
       <Rating rating={logement.rating} />
       <div className="collapse-container">
         <Collapse title="Description" content={logement.description} />
