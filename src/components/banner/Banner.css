@@ -4,6 +4,8 @@
   width: 100%;
   height: 110px;
   margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .banner-image {
@@ -26,7 +28,6 @@
   white-space: nowrap;
 }
 
-/* Mobile */
 @media screen and (max-width: 768px) {
   .bannertitle {
     font-size: 24px;
@@ -37,13 +38,13 @@
     max-width: 230px;
   }
 }
-/* Tablette */
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .bannertitle {
     font-size: 28px;
   }
 }
-/* Desktop */
+
 @media screen and (min-width: 1024px) {
   .bannertitle {
     font-size: 36px;
