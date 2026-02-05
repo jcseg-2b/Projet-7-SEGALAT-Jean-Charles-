@@ -21,7 +21,6 @@
 @media screen and (max-width: 1023px) {
   .cards-container {
     gap: 22px;
-    margin: 43px 0;
   }
 }
 @media screen and (min-width: 768px) {

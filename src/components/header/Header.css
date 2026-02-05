@@ -13,12 +13,6 @@ header {
   height: 45px;
   width: auto;
 }
-.header-decor {
-  width: 100%;
-  margin-top: 20px;
-  height: 110px;
-}
-
 nav a {
   margin: 0 10px;
   text-decoration: none;

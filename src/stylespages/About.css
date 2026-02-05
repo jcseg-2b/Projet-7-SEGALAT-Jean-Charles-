@@ -1,0 +1,49 @@
+.about-banner .banner {
+  height: 111px;
+}
+
+.about-collapse-container {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.about-collapse-container .collapse {
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.about-collapse-container .collapse-content {
+  background-color: #f5f5f5;
+  color: black;
+  font-weight: 300;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+}
+.about-collapse-container .collapse-header {
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-banner .banner {
+    height: 223px;
+  }
+  .about-collapse-container .collapse-header {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .about-collapse-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-collapse-container .collapse-header {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}

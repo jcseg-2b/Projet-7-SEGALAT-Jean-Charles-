@@ -48,7 +48,6 @@
 
 @media (min-width: 1024px) {
   .housing-info {
-    flex-direction: column;
     justify-content: space-between;
   }
 
