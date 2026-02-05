@@ -28,9 +28,6 @@
     font-size: 14px;
     font-weight: 700;
   }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
   .collapse-content {
     font-size: 14px;
     font-weight: 700;
@@ -42,8 +39,6 @@
     font-size: 16px;
     font-weight: 500;
   }
-}
-@media screen and (min-width: 1024px) {
   .collapse-header {
     font-size: 18px;
     font-weight: 300;
