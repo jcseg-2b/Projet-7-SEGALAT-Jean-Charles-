@@ -39,6 +39,10 @@
     height: 250px;
   }
 
+  .card:hover {
+    transform: scale(1.02);
+  }
+
   .card-title {
     padding: 15px;
   }

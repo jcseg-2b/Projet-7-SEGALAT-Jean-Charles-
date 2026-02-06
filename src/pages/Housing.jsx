@@ -6,6 +6,7 @@ import Collapse from "../components/collapse/Collapse";
 import Rating from "../components/rating/Rating";
 import Tag from "../components/tag/Tag";
 import Host from "../components/host/Host";
+import Slideshow from "../components/slideshow/Slideshow";
 
 function Housing() {
   const { id } = useParams();
@@ -17,11 +18,7 @@ function Housing() {
 
   return (
     <div>
-      <img
-        src={logement.cover}
-        alt={logement.title}
-        className="housing-cover"
-      />
+      <Slideshow pictures={logement.pictures} />
       <div className="housing-info">
         <h1 className="housing-title">{logement.title}</h1>
         <p className="housing-location">{logement.location}</p>
